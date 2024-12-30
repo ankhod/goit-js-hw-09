@@ -29,4 +29,13 @@
       </div>
     </main>
   </body>
+  <!-- Додаємо скрипт для динамічного підсвічування -->
+  <script>
+    const currentLocation = window.location.pathname;
+    if (currentLocation.includes('1-gallery.html')) {
+      document.getElementById('gallery-link').classList.add('highlight-act');
+    } else if (currentLocation.includes('2-form.html')) {
+      document.getElementById('form-link').classList.add('highlight-curr');
+    }
+  </script>
 </html>

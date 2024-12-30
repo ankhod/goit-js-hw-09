@@ -1,1 +1,33 @@
 @import 'simplelightbox/dist/simple-lightbox.min.css';
+
+/* Загальні стилі */
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline;
+  margin-right: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+/* Стиль для активного елемента */
+.highlight-act {
+  background-color: lightblue; /* Підсвічування активного елемента */
+  font-weight: bold;
+  color: white;
+}
+
+.highlight-curr {
+  background-color: lightgreen; /* Підсвічування поточного елемента */
+  font-weight: bold;
+  color: white;
+}
